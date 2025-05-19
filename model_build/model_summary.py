@@ -2,6 +2,8 @@ import io
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from model import build_unet
+
+
 # Function to capture model summary
 def get_model_summary(model):
     stream = io.StringIO()
